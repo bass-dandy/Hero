@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+	<!-- Shadow monologues -->
+	<conversation id="shadow-intro">
+		<line speaker="Shadow" duration="2">NOT MUCH FARTHER. YOUR FINAL TASK IS ALMOST COMPLETE.</line>
+		<line speaker="Shadow" duration="2">THE TALISMAN IS BEING HELD BY A VERY POWERFUL MAN. POWERFUL, BUT NOT LIKE YOU.</line>
+		<line speaker="Shadow" duration="2">YOU WILL FACE HIM. YOU WILL WIN. AND THEN WE WILL RESTORE WHAT WAS TAKEN FROM YOU.</line>
+	</conversation>
+
+	<conversation id="shadow-arrival" freeze_player="true">
+		<line speaker="Shadow" duration="1">INSIDE. I CAN SENSE IT.</line>
+		<line speaker="Shadow" duration="2">YOU MAY PROCEED, BUT CAREFULLY. THAT MAN IS NOT AS INNOCENT AS HE LOOKS.</line>
+	</conversation>
+
+	<conversation id="shadow-kill" freeze_player="true">
+		<line speaker="Wife" duration="2">Oh god! Please, what do you want?!</line>
+		<line speaker="Shadow" duration="2">KILL HER. SHE HAS IT.</line>
+	</conversation>
+	
+	<conversation id="shadow-killed">
+		<line speaker="Shadow">WHAT? THAT CAN'T BE RIGHT... WE MUST LEAVE. NOW.</line>
+	</conversation>
+
+	<conversation id="shadow-found" freeze_player="true">
+		<line speaker="Shadow">AH, CLEVER MAN. HE BOUND THE TALISMAN TO HIS OWN SON. TAKE IT AND GO.</line>
+	</conversation>
+	
+
+	<!-- Innocent barks -->
+	<conversation id="innocent-plea">
+		<line speaker="Innocent" duration="2">Who are you? What are you doing in my house?</line>
+		<line speaker="Innocent" duration="2">I don't want any trouble. Take what you need and go, please.</line>
+	</conversation>
+	
+	<conversation id="wife-warning">
+		<line speaker="Wife" duration="2">Stay back!</line>
+	</conversation>
+
+
+	<!-- Child barks -->
+	<conversation id="child" freeze_player="true">
+		<line speaker="Child" duration="2">Mom? Dad? I heard shouting.</line>
+		<line speaker="Child" duration="2">Oh god. Who are you? What have you done?</line>
+		<line speaker="Child" duration="2">You monster! I'll kill you!</line>
+	</conversation>
+
+
+	<!-- Rivl Conversation -->
+	<conversation id="rivl" freeze_player="true">
+		<line speaker="Rivl" duration="3">STOP! Wait, Hero? Oh no, no, no, please don't tell me this was you...</line>
+		<line speaker="Rivl" duration="2">Hero...</line>
+		<line speaker="Rivl" duration="2">Pirates and mercenaries I can understand, but these were good people!</line>
+	
+		<line speaker="Shadow" duration="3">DO NOT TRY TO EXPLAIN. WHAT YOU HAVE ACCOMPLISHED HERE IS FAR GREATER THAN RIVL CAN COMPREHEND.</line>
+	
+		<line speaker="Rivl" duration="2">You... you murdered them!</line>
+	
+		<line speaker="Shadow" duration="2">THEY WOULD HAVE KILLED YOU TOO.</line>
+	
+		<line speaker="Rivl" duration="2">I thought we wanted the same thing, Hero.</line>
+		<line speaker="Rivl" duration="3">I don't know what you're after anymore, but please. Stop. Nothing is worth this.</line>
+	
+		<line speaker="Shadow" duration="2">YOUR VILLAGE, YOUR FAMILY. THEY ARE WORTH EVERYTHING.</line>
+	
+		<line speaker="Rivl" duration="2">I'm sorry Hero. I can't forgive what you've done here.</line>
+		<line speaker="Rivl" duration="2">Think about what I said. You're a good person. You're better than this.</line>
+	</conversation>
+	
+	<!-- End conversation -->
+	<conversation id="shadow-end" freeze_player="true">
+		<line speaker="Shadow" duration="3">AND WHAT DOES RIVL KNOW ABOUT GOOD AND EVIL? WHAT ABOUT SACRIFICE?</line>
+		<line speaker="Shadow" duration="2">LET US GO. YOU WILL BE BETTER OFF ALONE.</line>
+	</conversation>
+</scene>
